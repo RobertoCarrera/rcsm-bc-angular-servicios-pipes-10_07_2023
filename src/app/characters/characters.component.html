@@ -1,0 +1,11 @@
+<div class="row container_characters">
+    <div class="col-3" *ngFor="let character of characters_info">
+        <div class="card card_file">
+            <img [src] = "character.image" class="card-img-top" alt="...">
+            <div class="card-body card_info">
+                <h5 class="card-title card_name"> {{character.name}} </h5>
+                <a (click)="seeDetails(character.id)" href="#" class="btn btn-primary card_button">See more</a>
+            </div>
+        </div>  
+    </div>
+</div>

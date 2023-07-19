@@ -1,0 +1,33 @@
+.container_characters{
+
+    max-width: 70%;
+
+    margin: 0 auto;
+}
+
+.card_file{
+
+    margin: 1em;
+}
+
+.card_name{
+
+    text-align: left;
+}
+
+.card_info{
+
+    text-align: center;
+}
+
+.card_button{
+
+    width: 100%;
+
+    background-color: orange;
+    
+    color: black;
+    font-weight: bold;
+
+    border: none;
+}

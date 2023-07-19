@@ -1,0 +1,29 @@
+#menu_container{
+
+    height: 8vh;
+
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+#name{
+
+    color: white;
+    font-size: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#menu a, #name a{
+
+    text-decoration: none;
+    color: white;
+}
